@@ -1,0 +1,260 @@
+[Root]
+Most Recent Package=CONstruct 1.0 Setup
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\My Documents\My Source\CS
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+E:\WINDOWS\system32\quartz.dll=
+F:\My Documents\My Source\CONstruct\vbalFlBr.dll=
+F:\My Documents\My Source\CONstruct_src\ISHF_Ex.tlb=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+E:\WINDOWS\system32\comctl32.ocx=
+E:\WINDOWS\system32\COMDLG32.OCX=
+E:\WINDOWS\system32\RICHTX32.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+F:\My Documents\My Source\CONstruct_src\CONstruct.exe=Yes
+E:\WINDOWS\system32\msvbvm60.dll=Yes
+E:\WINDOWS\system32\oleaut32.dll=Yes
+E:\WINDOWS\system32\olepro32.dll=Yes
+E:\WINDOWS\system32\asycfilt.dll=Yes
+E:\WINDOWS\system32\stdole2.tlb=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+F:\My Documents\My Source\CONstruct_src\ISHF_Ex.tlb=Yes
+F:\My Documents\My Source\CONstruct\vbalFlBr.dll=Yes
+E:\WINDOWS\system32\quartz.dll=Yes
+E:\WINDOWS\system32\RICHTX32.OCX=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+E:\WINDOWS\system32\COMDLG32.OCX=Yes
+E:\WINDOWS\system32\TABCTL32.OCX=Yes
+E:\WINDOWS\system32\comctl32.ocx=Yes
+E:\WINDOWS\system32\COMCT232.OCX=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+E:\WINDOWS\system32\VB6STKIT.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+F:\My Documents\My Source\CONstruct_src\CONstruct.exe=$(AppPath)
+E:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+E:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+E:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+E:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+E:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+F:\My Documents\My Source\CONstruct_src\ISHF_Ex.tlb=$(WinSysPath)
+F:\My Documents\My Source\CONstruct\vbalFlBr.dll=$(WinSysPath)
+E:\WINDOWS\system32\quartz.dll=$(WinSysPath)
+E:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+E:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+E:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+E:\WINDOWS\system32\comctl32.ocx=$(WinSysPath)
+E:\WINDOWS\system32\COMCT232.OCX=$(WinSysPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+F:\My Documents\My Source\CONstruct_src\CONstruct.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=CONstruct
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=CONstruct
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|CONstruct]
+Icon1=CONstruct.exe
+Title1=CONstruct
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=F:\My Documents\My Source\CS
+ProjectFolder=F:\My Documents\My Source\CONstruct_src
+ServerSideCab=
+File1=F:\My Documents\My Source\CS\setup.exe
+File2=F:\My Documents\My Source\CS\Setup.Lst
+File3=F:\My Documents\My Source\CS\CONstruct.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|CONstruct 1.0 Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\My Documents\My Source\CS
+
+[Package|CONstruct 1.0 Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|CONstruct 1.0 Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|CONstruct 1.0 Setup|Files Found]
+
+[Package|CONstruct 1.0 Setup|Files Released]
+
+[Package|CONstruct 1.0 Setup|Missing Dependency Information]
+E:\WINDOWS\system32\quartz.dll=
+F:\My Documents\My Source\CONstruct\vbalFlBr.dll=
+F:\My Documents\My Source\CONstruct_src\ISHF_Ex.tlb=
+F:\My Documents\My Source\CONstruct_src\PrimDef\PrimDef.exe=
+E:\WINDOWS\system32\vbalFlBr.dll=
+E:\WINDOWS\system32\ISHF_Ex.tlb=
+
+[Package|CONstruct 1.0 Setup|Out-of-Date Dependency Information]
+E:\WINDOWS\system32\MSCOMCTL.OCX=
+E:\WINDOWS\system32\comctl32.ocx=
+E:\WINDOWS\system32\COMDLG32.OCX=
+E:\WINDOWS\system32\RICHTX32.OCX=
+
+[Package|CONstruct 1.0 Setup|Files Added]
+f:\my documents\my source\construct_src\comment header.con=
+f:\my documents\my source\construct_src\construct.cfg=
+f:\my documents\my source\construct_src\construct.csp=
+f:\my documents\my source\construct_src\construct.exe.manifest=
+f:\my documents\my source\construct_src\readme.rtf=
+f:\my documents\my source\construct_src\primdef\primdef.exe.manifest=
+f:\my documents\my source\construct_src\primdef\primdef.exe=
+
+[Package|CONstruct 1.0 Setup|Files Removed]
+
+[Package|CONstruct 1.0 Setup|Files In Project]
+F:\My Documents\My Source\CONstruct_src\CONstruct.exe=Yes
+E:\WINDOWS\system32\msvbvm60.dll=Yes
+E:\WINDOWS\system32\oleaut32.dll=Yes
+E:\WINDOWS\system32\olepro32.dll=Yes
+E:\WINDOWS\system32\asycfilt.dll=Yes
+E:\WINDOWS\system32\stdole2.tlb=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+E:\WINDOWS\system32\quartz.dll=Yes
+E:\WINDOWS\system32\RICHTX32.OCX=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+E:\WINDOWS\system32\COMDLG32.OCX=Yes
+E:\WINDOWS\system32\comctl32.ocx=Yes
+E:\WINDOWS\system32\COMCT232.OCX=Yes
+E:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+E:\WINDOWS\system32\VB6STKIT.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+F:\My Documents\My Source\CONstruct_src\Comment Header.con=Yes
+F:\My Documents\My Source\CONstruct_src\CONstruct.cfg=Yes
+F:\My Documents\My Source\CONstruct_src\CONstruct.csp=Yes
+F:\My Documents\My Source\CONstruct_src\CONstruct.exe.manifest=Yes
+F:\My Documents\My Source\CONstruct_src\Readme.rtf=Yes
+F:\My Documents\My Source\CONstruct_src\PrimDef\PrimDef.exe.manifest=Yes
+F:\My Documents\My Source\CONstruct_src\PrimDef\PrimDef.exe=Yes
+E:\WINDOWS\system32\ISHF_Ex.tlb=Yes
+E:\WINDOWS\system32\vbalFlBr.dll=Yes
+
+[Package|CONstruct 1.0 Setup|Configure Registry Files]
+Applicable=No
+
+[Package|CONstruct 1.0 Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|CONstruct 1.0 Setup|Install Locations]
+F:\My Documents\My Source\CONstruct_src\CONstruct.exe=$(AppPath)
+E:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+E:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+E:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+E:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+E:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+F:\My Documents\My Source\CONstruct_src\ISHF_Ex.tlb=$(WinSysPath)
+F:\My Documents\My Source\CONstruct\vbalFlBr.dll=$(WinSysPath)
+E:\WINDOWS\system32\quartz.dll=$(WinSysPath)
+E:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+E:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+E:\WINDOWS\system32\comctl32.ocx=$(WinSysPath)
+E:\WINDOWS\system32\COMCT232.OCX=$(WinSysPath)
+E:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+F:\My Documents\My Source\CONstruct_src\Comment Header.con=$(AppPath)
+F:\My Documents\My Source\CONstruct_src\CONstruct.cfg=$(AppPath)
+F:\My Documents\My Source\CONstruct_src\CONstruct.csp=$(AppPath)
+F:\My Documents\My Source\CONstruct_src\CONstruct.exe.manifest=$(AppPath)
+F:\My Documents\My Source\CONstruct_src\Readme.rtf=$(AppPath)
+F:\My Documents\My Source\CONstruct_src\PrimDef\PrimDef.exe.manifest=$(AppPath)\PrimDef
+F:\My Documents\My Source\CONstruct_src\PrimDef\PrimDef.exe=$(AppPath)\PrimDef
+E:\WINDOWS\system32\ISHF_Ex.tlb=$(WinSysPath)
+E:\WINDOWS\system32\vbalFlBr.dll=$(WinSysPath)
+
+[Package|CONstruct 1.0 Setup|Configure Shared Files]
+Applicable=Yes
+F:\My Documents\My Source\CONstruct_src\CONstruct.exe=No
+F:\My Documents\My Source\CONstruct_src\Comment Header.con=No
+F:\My Documents\My Source\CONstruct_src\CONstruct.cfg=No
+F:\My Documents\My Source\CONstruct_src\CONstruct.csp=No
+F:\My Documents\My Source\CONstruct_src\CONstruct.exe.manifest=No
+F:\My Documents\My Source\CONstruct_src\Readme.rtf=No
+F:\My Documents\My Source\CONstruct_src\PrimDef\PrimDef.exe.manifest=No
+F:\My Documents\My Source\CONstruct_src\PrimDef\PrimDef.exe=No
+
+[Package|CONstruct 1.0 Setup|Distribution]
+Type=single
+Size=
+Title=CONstruct 1.0
+
+[Package|CONstruct 1.0 Setup|Package]
+PackageFolder=F:\My Documents\My Source\CS
+ProjectFolder=F:\My Documents\My Source\CONstruct_src
+ServerSideCab=
+File1=F:\My Documents\My Source\CS\setup.exe
+File2=F:\My Documents\My Source\CS\Setup.Lst
+File3=F:\My Documents\My Source\CS\CONstruct.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|CONstruct 1.0 Setup|IconGroups]
+Group0=CONstruct 1.0
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|CONstruct 1.0 Setup|CONstruct 1.0]
+Icon1=CONstruct.exe
+Title1=CONstruct 1.0
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=Readme.rtf
+Title2=ReadMe
+StartIn2=$(AppPath)
+Key2=Icon7

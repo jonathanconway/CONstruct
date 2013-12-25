@@ -1,0 +1,8 @@
+/** snippet [label]=State, [category]= */
+/** field [fieldname]=State Name, [datatype]=0 */
+
+state <State Name>
+
+	// state code goes here
+
+ends // <State Name>

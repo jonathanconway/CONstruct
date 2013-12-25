@@ -1,0 +1,12 @@
+/** snippet [label]=Actor, [category]= */
+/** field [fieldname]=Actor Name, [datatype]=0 */
+/** field [fieldname]=Strength, [datatype]=0 */
+/** field [fieldname]=Action, [datatype]=0 */
+/** field [fieldname]=Speed, [datatype]=0 */
+/** field [fieldname]=AI Function, [datatype]=0 */
+
+actor <Actor Name> <Strength> <Action> <Speed> <AI Function>
+{
+	// actor code goes here
+}
+enda // <Actor Name>

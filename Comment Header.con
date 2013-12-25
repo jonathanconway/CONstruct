@@ -1,0 +1,13 @@
+/** snippet [label]=Comment Header, [category]= */
+/** field [fieldname]=Module Name, [datatype]=0 */
+/** field [fieldname]=Author, [datatype]=0 */
+/** field [fieldname]=Description, [datatype]=0 */
+/** field [fieldname]=Date, [datatype]=0 */
+/** field [fieldname]=Copyright, [datatype]=0 */
+/*
+	Name: <Module Name>
+	Author: <Author>
+	Description: <Description>
+	Date: <Date>
+	Copyright: <Copyright>
+*/
