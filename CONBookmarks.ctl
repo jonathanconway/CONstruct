@@ -132,7 +132,7 @@ End Function
 
 Public Sub AddBookmark(ByVal BookmarkName As String, ByVal Value As Long)
     
-    Dim oNewItem As ListItem
+    Dim oNewItem As Variant
 
     lvwBookmarks.Sorted = False     ' Turn off sorting while adding item
     
@@ -151,7 +151,7 @@ End Sub
 Private Sub InitializeBookmarks()
 
     Dim oListItem As CListItem      ' String-list item
-    Dim oNewItem As ListItem        ' Item for listview control
+    Dim oNewItem As Variant         ' Item for listview control
 
     lvwBookmarks.ListItems.Clear
     m_oList.ProcessString m_oList.GenerateString() & ", " & Settings.ReadBookmarks(m_sFilename)

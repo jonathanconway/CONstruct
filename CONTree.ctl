@@ -1,5 +1,5 @@
 VERSION 5.00
-Object = "{6B7E6392-850A-101B-AFC0-4210102A8DA7}#1.3#0"; "comctl32.ocx"
+Object = "{6B7E6392-850A-101B-AFC0-4210102A8DA7}#1.3#0"; "COMCTL32.OCX"
 Begin VB.UserControl CONTree 
    Alignable       =   -1  'True
    ClientHeight    =   3600
@@ -276,15 +276,20 @@ End Sub
 
 Private Function GetCategoryNode(ByVal Category As String) As String
 
-    Dim oSelNode As Node
+    Dim oSelNode As Variant
 
-    Dim oNode As Node
-    For Each oNode In tvw.Nodes
-        If oNode.Image = 2 And oNode.Text = Category Then
-            Set oSelNode = oNode
-            Exit For
-        End If
-    Next
+    
+    If tvw.Nodes.Count > 0 Then
+        Dim oNode As Variant
+        Dim i As Integer
+        For i = 1 To tvw.Nodes.Count
+            Set oNode = tvw.Nodes.Item(i)
+            If oNode.Image = 2 And oNode.Text = Category Then
+                Set oSelNode = oNode
+                Exit For
+            End If
+        Next
+    End If
 
     If oSelNode Is Nothing Then
         Set oSelNode = tvw.Nodes.Add("Root", tvwChild, Replace$(Category, " ", ""), Category, 2, 3)
@@ -297,7 +302,7 @@ End Function
 Private Sub m_oParser_BlockAdded(Block As CBlock)
     
     Dim sKey As String
-    Dim oNode As Node
+    Dim oNode As Variant
     
     If Block.Structure.Primitive Is Nothing Then
         sKey = "Root"
